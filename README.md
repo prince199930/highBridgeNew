@@ -26,6 +26,11 @@ npm install
 # or
 yarn install
 
+for Login purpose Use this credentials
+ email: "johndoe@example.com",
+    password: "password123",
+for Signup you can create account and start working on it
+
 Start the development server:
 npm run dev
 # or
