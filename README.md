@@ -1,12 +1,37 @@
-# React + Vite
+ighBridge Dashboard
+HighBridge Dashboard is a to manage make api calls, emails, text box, to store all these values
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HighBridge Dashboard
 
-Currently, two official plugins are available:
+🚀 Features
+Dashboard Features
+Login and Signup authentication
+📊 CRUD
+🗺️ Search
+📱 Pagination
+🔔 success notifications
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Technical Stack
+Frontend: React 18, Vite
+Styling: Tailwind CSS
+toastify: notifications
+redux: Routing
+Beeceptor: Mock API's
 
-## Expanding the ESLint configuration
+📦 Installation
+Clone the repository:
+git clone https://github.com/yourusername/safeguard-dashboard.git
+Install dependencies:
+npm install
+# or
+yarn install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server:
+npm run dev
+# or
+yarn dev
+
+🌟 Improvements for later
+Try to optimizie more
+create components
+clean code
