@@ -1,4 +1,4 @@
-ighBridge Dashboard
+HighBridge Dashboard
 HighBridge Dashboard is a to manage make api calls, emails, text box, to store all these values
 
 HighBridge Dashboard
