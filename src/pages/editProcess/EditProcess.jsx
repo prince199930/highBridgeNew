@@ -4,8 +4,8 @@ import { IoArrowBack } from "react-icons/io5";
 import { IoIosAdd } from "react-icons/io";
 import { v4 as uuidv4 } from "uuid";
 import { AiFillCheckCircle, AiFillCloseCircle, AiOutlineDelete } from "react-icons/ai";
-import { useWorkflows } from "../../context/WorkflowContext"; // Import the workflow context
 import { useNavigate, useParams } from "react-router-dom";
+import { useWorkflows } from "../../context/WorkFlowContext";
 
 export default function EditProcess() {
     const [zoom, setZoom] = useState(100);
