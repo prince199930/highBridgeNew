@@ -9,7 +9,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import CreateProcess from "./pages/createProcess/CreateProcess";
 import EditProcess from "./pages/editProcess/EditProcess";
-import { WorkflowProvider } from "./context/WorkflowContext";
+import { WorkflowProvider } from "./context/WorkFlowContext";
+
 
 function App() {
   return (
