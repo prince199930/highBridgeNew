@@ -8,7 +8,7 @@ import { AuthProvider } from "./context/AuthContext";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import CreateProcess from "./pages/createProcess/CreateProcess";
-import EditProcess from "./pages/editProcess/EditProcess"; // Import EditProcess
+import EditProcess from "./pages/editProcess/EditProcess";
 import { WorkflowProvider } from "./context/WorkflowContext";
 
 function App() {
