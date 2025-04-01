@@ -66,27 +66,6 @@ export const WorkflowProvider = ({ children }) => {
             return updatedWorkflow;
         });
     };
-    
-
-    // const removeWorkflow = (workflowId) => {
-    //     setWorkflows((prev) => {
-    //         const updatedWorkflows = prev
-    //             .map((group) => ({
-    //                 ...group,
-    //                 nodes: group.nodes.filter((node) => node.id !== workflowId),
-    //             }))
-    //             .filter((group) => group.nodes.length > 0);
-
-    //         localStorage.setItem("workflows", JSON.stringify(updatedWorkflows));
-    //         return updatedWorkflows;
-    //     });
-
-    //     if (currentWorkflow?.id === workflowId) {
-    //         setCurrentWorkflow(null);
-    //         setCurrentWorkflowId(null);
-    //         localStorage.removeItem("currentWorkflow");
-    //     }
-    // };
 
     return (
         <WorkflowContext.Provider value={{
@@ -101,4 +80,4 @@ export const WorkflowProvider = ({ children }) => {
     );
 };
 
-export const useWorkflows = () => useContext(WorkflowContext);
+export const useWorkflows = () => { return useContext(WorkflowContext)};
